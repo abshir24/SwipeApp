@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SwipeTest
+//  SwipTest
 //
 //  Created by Abshir Mohamed on 7/8/19.
 //  Copyright © 2019 Abshir Mohamed. All rights reserved.

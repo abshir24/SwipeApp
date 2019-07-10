@@ -14,10 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
-        leftSwipe.direction = UISwipeGestureRecognizer.Direction.left
-        self.view.addGestureRecognizer(leftSwipe)
-        
+        let downSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
+        downSwipe.direction = UISwipeGestureRecognizer.Direction.down
+        self.view.addGestureRecognizer(downSwipe)
+    
     }
     
     
@@ -30,12 +30,7 @@ extension UIViewController
         print("HERE \(swipe.direction.rawValue)")
         
         switch swipe.direction.rawValue{
-            
-        case 1:
-            performSegue(withIdentifier: "swipeLeft", sender: self)
-        case 2:
-            performSegue(withIdentifier: "swipeRight", sender: self)
-        case 3:
+        case 8:
             performSegue(withIdentifier: "swipeUp", sender: self)
         case 4:
             performSegue(withIdentifier: "swipeDown", sender: self)

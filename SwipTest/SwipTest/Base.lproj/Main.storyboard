@@ -21,7 +21,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="LL4-vs-kgP" kind="show" identifier="swipeRight" id="9Xi-Id-oz4"/>
+                        <segue destination="LL4-vs-kgP" kind="show" identifier="swipeUp" id="9Xi-Id-oz4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -39,54 +39,12 @@
                         <viewLayoutGuide key="safeArea" id="w3D-tb-Btm"/>
                     </view>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="swipeLeft" id="YRc-9V-tiG"/>
-                        <segue destination="8mB-PS-ndp" kind="show" identifier="swipeUp" id="iTt-pB-MJH"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="swipeDown" id="YRc-9V-tiG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K0z-I9-taq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="794" y="153"/>
         </scene>
-        <!--View Controller3-->
-        <scene sceneID="ARZ-HH-S8h">
-            <objects>
-                <viewController id="8mB-PS-ndp" customClass="ViewController3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Kk2-xx-iXV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="UPP-FU-Yme"/>
-                    </view>
-                    <connections>
-                        <segue destination="LL4-vs-kgP" kind="show" identifier="swipeLeft" id="rru-CC-hAz"/>
-                        <segue destination="fkj-pr-KHK" kind="show" identifier="swipeDown" id="dmf-6r-VeY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="inA-zP-8rR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1580" y="153"/>
-        </scene>
-        <!--View Controller4-->
-        <scene sceneID="9v3-q6-nAS">
-            <objects>
-                <viewController id="fkj-pr-KHK" customClass="ViewController4" customModule="SwipTest" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pQz-Mk-ohx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="DbU-Oa-8yx"/>
-                    </view>
-                    <connections>
-                        <segue destination="8mB-PS-ndp" kind="show" identifier="swipeUp" id="8Ob-lS-8yL"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DKF-ke-Uhr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2394" y="163"/>
-        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="8Ob-lS-8yL"/>
-        <segue reference="rru-CC-hAz"/>
-    </inferredMetricsTieBreakers>
 </document>
